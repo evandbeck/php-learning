@@ -9,7 +9,16 @@
 <body>
 
     <?php
-        echo("Hello World");
+        echo "Hello World";
+        echo "<h1>Test</h1>";
+
+        // Variable in PHP
+        // $ vs. let or const
+
+        $name = "Evan";
+        $age = "29";
+
+        echo "$name is $age years-old."
     ?>
     
 </body>
