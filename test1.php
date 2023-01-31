@@ -18,7 +18,30 @@
         $name = "Evan";
         $age = "29";
 
-        echo "$name is $age years-old."
+        echo "$name is $age years-old.";
+
+        // Data Types in PHP
+
+        // String
+        $phrase = "This is a string.";
+        
+        // Integer
+        $num = 100;
+
+        // Float
+        $gpa = 100.001;
+
+        // Boolean
+        $isCat = true;
+
+        // Null or "No Value"
+        null;
+
+        // Arrays
+        $cats = array("big", "smol", "orange", "tortie");
+        echo $cats[1];
+        echo count($cats);
+
     ?>
     
 </body>
