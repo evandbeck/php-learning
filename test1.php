@@ -54,7 +54,10 @@
         hello("Evan");
 
         // Return Statements
-        
+        function cube($num){
+            return $num * $num * $num
+        }
+       cube(2);
 
     ?>
     
