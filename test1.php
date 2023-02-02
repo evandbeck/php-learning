@@ -62,21 +62,37 @@
 
        // Classes & Objects
        class Book {
-        var $title;
-        var $author;
-        var $pages;
+        public $title;
+        private $author;
+        public $pages;
 
         function __construct($title, $author, $pages){
             $this->title = $title;
-            $this->author = $author;
+            $this->setAuthor($author);
             $this->pages = $pages;
+        }
+
+        function getAuthor() {
+            return $this->author;
+        }
+
+        function setAuthor($author) {
+            if ($author == "Evan" || $author = "Beck") {
+                $this->author = $author;
+            } else {
+                $this->author = "Not Evan Beck";
+            }
+        }
+
+        function isNovel() {
+            if ($this->pages >= 100) {
+                return "Novel!";
+            }
+            return "Not Novel!";
         }
        }
 
        $book1 = new Book;
-
-       // Constructors
-
 
     ?>
     
