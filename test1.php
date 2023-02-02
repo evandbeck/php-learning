@@ -55,9 +55,28 @@
 
         // Return Statements
         function cube($num){
-            return $num * $num * $num
+            return $num * $num * $num;
         }
+
        cube(2);
+
+       // Classes & Objects
+       class Book {
+        var $title;
+        var $author;
+        var $pages;
+
+        function __construct($title, $author, $pages){
+            $this->title = $title;
+            $this->author = $author;
+            $this->pages = $pages;
+        }
+       }
+
+       $book1 = new Book;
+
+       // Constructors
+
 
     ?>
     
