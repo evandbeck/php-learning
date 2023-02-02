@@ -42,6 +42,11 @@
         echo $cats[1];
         echo count($cats);
 
+        // Associative Arrays
+        // Store Key-Value Pairs
+        $grades = array("Evan"=>"A", "Beck"=>"B", "Teddy"=>"C");
+        echo $grades["Evan"];
+
     ?>
     
 </body>
