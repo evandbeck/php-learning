@@ -47,6 +47,15 @@
         $grades = array("Evan"=>"A", "Beck"=>"B", "Teddy"=>"C");
         echo $grades["Evan"];
 
+        // Functions
+        function hello($user){
+            echo "Hello $user!";
+        }
+        hello("Evan");
+
+        // Return Statements
+        
+
     ?>
     
 </body>
